@@ -1,0 +1,8 @@
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.csproj.AssemblyReference.cache
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.AssemblyInfoInputs.cache
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.AssemblyInfo.cs
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.csproj.CoreCompileInputs.cache
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.MvcApplicationPartsAssemblyInfo.cs
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.MvcApplicationPartsAssemblyInfo.cache
+/mnt/Datos/Repos/tp12/api/obj/Debug/net8.0/api.sourcelink.json
