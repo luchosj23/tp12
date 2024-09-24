@@ -39,5 +39,54 @@ app.MapPost("/usuario", ([FromBody] Usuario usuario) =>
     return Results.Created($"/usuario/{usuario.Id}", usuario);
 })
     .WithTags("usuario");
+    
+    app.MapGet("/usuario", () =>
+{
+    return Results.Ok(usuarios);
+})
+    .WithTags("Usuario");
+
+
+app.MapPut("/usuario", ([FromQuery] int id, [FromBody] Usuario usuario) =>
+{
+    var usuarioAActualizar = usuarios.FirstOrDefault(usuario => usuario.Id == id);
+    if (usuarioAActualizar != null)
+    {
+        usuarioAActualizar.Correo = usuario.Correo;
+        usuarioAActualizar.usuario = usuario.usuario;
+        
+        return Results.Ok(usuario); //Codigo 200
+    }
+    else
+    {
+        return Results.NotFound(); //Codigo 404
+    }
+})
+    .WithTags("Usuario");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.Run();
